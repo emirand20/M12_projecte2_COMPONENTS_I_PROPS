@@ -5,9 +5,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <UserGrup name='Joan'></UserGrup>
-          <UserGrup name='Javier'></UserGrup>
-          <UserGrup name='Aitor'></UserGrup>
+          <UserGrup name='Joan' />
+          <UserGrup name='Javier' />
+          <UserGrup name='Aitor' />
 
         </div>
       </header>
@@ -19,7 +19,7 @@ const UserGrup = (props) => {
     <div>
       <h1>{props.name}</h1>
       <input placeholder='Surname'></input>
-      {}<button>Submit</button>
+      { }<button>Submit</button>
     </div>
   )
 }
