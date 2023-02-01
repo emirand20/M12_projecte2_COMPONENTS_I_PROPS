@@ -1,6 +1,6 @@
 const NomProfessio = (props) => {
   return (
-    <div>
+    <div className="Profesor">
       <h2>
         {props.nom}
       </h2>
