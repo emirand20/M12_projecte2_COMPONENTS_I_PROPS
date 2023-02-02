@@ -1,4 +1,4 @@
-const Quadrefoto = () =>{
+/*const Quadrefoto = () =>{
     return(
     <div className="quadreExterior">
         <div className="quadreInterior">
@@ -8,4 +8,4 @@ const Quadrefoto = () =>{
     )
 }
 
-export default Quadrefoto;
+export default Quadrefoto;*/
