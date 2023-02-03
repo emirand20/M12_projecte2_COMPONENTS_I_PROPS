@@ -6,8 +6,7 @@ const NomProfessio = (props) => {
           className="imagen"
           src="Images/Spaghetti_dish.jpg"
           alt="Espaguetis fets per en Roger Sobrino"
-          width="205"
-          height="155"
+          width="100%"
         ></img>
       </div>
       <div className="profesor">

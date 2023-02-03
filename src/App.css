@@ -1,5 +1,5 @@
 .App {
-  background-color: rgb(255, 255, 173);
+  background-color: rgb(229, 229, 164);
 }
 .Titulo{
   text-align: center;
@@ -10,17 +10,18 @@
   margin-right: 7%;
   margin-bottom: 1%;
   display: flex;
+  border: 1px solid rgb(0, 0, 0);   
 }
 .imagen {
   margin-top: 5%;
   margin-right: 5%;
   margin-left: 5%;
   margin-bottom: 5%;
+  border: 1px solid rgb(0, 0, 0);   
 }
 .image-container {
-  width: 32%;
+  width: 35%;
 }
 .profesor {
   width: 100%;
-  position: relative;
 }
