@@ -1,21 +1,24 @@
 .App {
-  background-color: rgb(255, 255, 173);
+  margin-top: -1%;
+  background-color: rgb(226, 226, 179);
 }
 .Titulo{
   text-align: center;
 }
 .quadreExterior {
-  background-color: rgb(240, 176, 176);
-  margin-left: 10%;
-  margin-right: 7%;
-  margin-bottom: 1%;
+  background-color: rgb(223, 208, 208);
+  margin-left: 29%;
+  margin-right: 29%;
+  margin-bottom: 0.5%;
   display: flex;
+  border: 1px black solid;
 }
 .imagen {
   margin-top: 5%;
   margin-right: 5%;
   margin-left: 5%;
   margin-bottom: 5%;
+  border: 1px solid black;
 }
 .image-container {
   width: 32%;
@@ -23,4 +26,6 @@
 .profesor {
   width: 100%;
   position: relative;
+  margin-left: 17%;
+  margin-top: -1%;
 }

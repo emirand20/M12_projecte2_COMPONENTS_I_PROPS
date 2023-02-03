@@ -5,10 +5,12 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <br></br>
       <Titol />
-      <NomProfessio nom='Roger' professio='Pastisser' lorem='Lorem ipsum dolor si amet'/>
-      <NomProfessio nom='Oriol' professio='Flequer' lorem='consectetur adispicing elit'/>
-      <NomProfessio nom='Joan' professio='Panader' lorem='que te parece'/>
+        <NomProfessio nom='Oriol' professio='Pastisser' lorem='Lorem ipsum dolor si amet'/>
+        <NomProfessio nom='Roger' professio='Flequer' lorem='consectetur adispicing elit'/>
+        <br></br>
+        <br></br>
     </div>
   );
 }
