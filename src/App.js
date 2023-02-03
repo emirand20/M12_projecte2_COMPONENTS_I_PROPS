@@ -6,12 +6,9 @@ function App() {
   return (
     <div className="App">
       <Titol />
-      <NomProfessio nom="Roger" professio="Pastisser" />
-      <p>Lorem ipsum dolor si amet</p>
-      
-
-      <NomProfessio nom="Oriol" professio="Flequer" />
-      <p>consectetur adispicing elit </p>
+      <NomProfessio nom='Roger' professio='Pastisser' lorem='Lorem ipsum dolor si amet'/>
+      <NomProfessio nom='Oriol' professio='Flequer' lorem='consectetur adispicing elit'/>
+      <NomProfessio nom='Joan' professio='Panader' lorem='que te parece'/>
     </div>
   );
 }
