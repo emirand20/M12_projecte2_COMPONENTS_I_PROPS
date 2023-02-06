@@ -6,17 +6,20 @@ const NomProfessio = (props) => {
           className="imagen"
           src="Images/Spaghetti_dish.jpg"
           alt="Espaguetis fets per en Roger Sobrino"
-          width="100%"
+          width="300"
+          height="200"
         ></img>
       </div>
       <div className="profesor">
         <h2>
           {props.nom},<br></br>
-          {props.professio}
         </h2>
+        <h3>
+          {props.professio}
+        </h3>
         <p>{props.lorem}</p>
       </div>
     </div>
   );
-};
-export default NomProfessio;
+ };
+ export default NomProfessio;
