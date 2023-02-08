@@ -1,11 +1,15 @@
-import Titol from "./Components/Titol";
-import NomProfessio from "./Components/Nomprofessio";
-import "./App.css";
+import './App.css';
+import TextComponent from './Components/ShowHide'
+import Age from './Components/Age'
+import Botons from './Components/Botons'
+
 
 function App() {
   return (
     <div className="App">
-      <Titol />
+    <TextComponent />
+    <Age />
+    <Botons />
     </div>
   );
 }
