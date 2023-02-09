@@ -2,6 +2,7 @@ import './App.css';
 import TextComponent from './Components/ShowHide'
 import Age from './Components/Age'
 import Botons from './Components/Botons'
+import ChangeColor from './Components/ChangeColor'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <TextComponent />
     <Age />
     <Botons />
+    <ChangeColor />
     </div>
   );
 }
