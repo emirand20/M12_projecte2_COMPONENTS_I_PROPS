@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <button onClick={ocultaensenya()}>Show/hide</button>
+      <button onClick={ocultamostra}>Show/hide</button>
       {estat && <p>El text es mostra</p>}
     </div>
   );
